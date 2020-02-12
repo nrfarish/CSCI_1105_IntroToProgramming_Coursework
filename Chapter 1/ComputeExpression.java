@@ -1,5 +1,8 @@
-/* Author Nic Farish
-Code to compute a mathmatical expression */
+/* 
+Author Nic Farish
+2/12/20
+Code to compute a mathmatical expression
+*/
 
 public class ComputeExpression {
 	public static void main(String[] args) {
