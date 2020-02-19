@@ -19,7 +19,7 @@ public class TrianglePerimeter {
 		double c = input.nextDouble();
 		double perimeter = 0.0;
 
-		if (a * b > c && a * c > b && b * c > a) {
+		if (a + b > c && a + c > b && b + c > a) {
 			perimeter = a + b + c;
 			System.out.println("The perimeter of the triangle is " +
 			perimeter + ".");
