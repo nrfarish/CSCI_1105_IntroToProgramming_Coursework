@@ -48,7 +48,8 @@ public class carCare {
     mileage = input.nextInt();
     System.out.print("Enter the number of gallons for the current fill up: ");
     gallons = input.nextDouble();
-    System.out.printf("Your MPG for the last fill up was: %3.2f\n", new Object[] { Double.valueOf(mpg(mileage, oldMileage, gallons)) });
+    System.out.printf("Your MPG for the last fill up was: %3.2f\n", new Object[] 
+                      { Double.valueOf(mpg(mileage, oldMileage, gallons)) });
     newOil(mileage);
   }
   
